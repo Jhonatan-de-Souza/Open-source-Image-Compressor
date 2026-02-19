@@ -1,8 +1,8 @@
 """
-Entry point for CompactaImagem
+Entry point for Open-source Image Compressor
 """
 
-from compactaimagem.ui import ImageCompressorApp
+from open_source_image_compressor.ui import ImageCompressorApp
 
 
 if __name__ == "__main__":

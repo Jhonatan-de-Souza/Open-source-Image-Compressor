@@ -1,9 +1,9 @@
 """
-Configuration constants for CompactaImagem
+Configuration constants for Open-source Image Compressor
 """
 
 # UI Configuration
-UI_TITLE = "Compressor de Imagens"
+UI_TITLE = "Image Compressor"
 UI_WIDTH = 600
 UI_HEIGHT = 400
 APPEARANCE_MODE = "dark"
@@ -16,10 +16,10 @@ MAX_COMPRESSION_LEVEL = 10
 
 # File Handling
 SUPPORTED_FORMATS = [".jpg", ".jpeg", ".png", ".heic"]
-OUTPUT_DIR_NAME = "comprimidas"
+OUTPUT_DIR_NAME = "compressed"
 
 # File Dialog
 FILE_DIALOG_TYPES = [
-    ("Imagens", "*.jpg;*.jpeg;*.png;*.heic"),
-    ("Todos os arquivos", "*.*")
+    ("Images", "*.jpg;*.jpeg;*.png;*.heic"),
+    ("All files", "*.*")
 ]
