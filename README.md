@@ -5,10 +5,10 @@
 ## 📸 Preview
 
 ### GUI Interface
-![Image Compressor Interface](ui.jpeg)
+![Image Compressor Interface](open_source_image_compressor/assets/ui.jpeg)
 
 ### Before & After Compression
-![Before and After Compression](before_and_after.jpg)
+![Before and After Compression](open_source_image_compressor/assets/before_and_after.jpg)
 
 ---
 
