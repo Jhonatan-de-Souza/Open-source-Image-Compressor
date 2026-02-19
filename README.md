@@ -1,6 +1,18 @@
 # Open-source Image Compressor
 
-## 🇬🇧 English
+---
+
+## 📸 Preview
+
+### GUI Interface
+![Image Compressor Interface](ui.jpeg)
+
+### Before & After Compression
+![Before and After Compression](before_and_after.jpg)
+
+---
+
+## English
 
 A simple and efficient tool to compress and optimize images (JPEG, PNG, HEIC) with a user-friendly dark-themed GUI built with `customtkinter`.
 
@@ -64,7 +76,7 @@ Open-source project for personal use and educational purposes.
 
 ---
 
-## 🇧🇷 Português Brasileiro
+## Português Brasileiro
 
 Uma ferramenta simples e eficiente para comprimir e otimizar imagens (JPEG, PNG, HEIC) com uma interface gráfica amigável com tema escuro construída em `customtkinter`.
 

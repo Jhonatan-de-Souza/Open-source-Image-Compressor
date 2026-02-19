@@ -26,6 +26,17 @@ class ImageCompressorApp(ctk.CTk):
         self.title(UI_TITLE)
         self.geometry(f"{UI_WIDTH}x520")
         self.resizable(False, False)
+        
+        # Set window icon (for Windows)
+        try:
+            # Check if icon exists in the app directory or package directory
+            icon_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "app.ico")
+            if not os.path.exists(icon_path):
+                icon_path = os.path.join(os.getcwd(), "app.ico")
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
+        except Exception:
+            pass  # Icon not critical, continue if it fails
 
         self.selected_files = []
         self.compression_level = DEFAULT_COMPRESSION_LEVEL
