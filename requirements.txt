@@ -1,6 +1,7 @@
 customtkinter
 Pillow
 cx-Freeze
+pyinstaller
 lief
 pillow-heif
 tqdm
